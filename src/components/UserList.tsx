@@ -80,7 +80,7 @@ const UserList = () => {
   return (
     <>
       <div className="container">
-        <h2>User List</h2>
+        <h2>All Users</h2>
 
         {loading && <div className="spinner-border"></div>}
 
@@ -105,7 +105,7 @@ const UserList = () => {
                 </button>
 
                 <button
-                  className="btn btn-danger"
+                  className="btn btn-warning"
                   onClick={() => updateUser(user)}
                 >
                   Update
